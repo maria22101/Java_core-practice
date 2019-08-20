@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strings/StringArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/StringImmutability.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,14 +26,14 @@
         <counts>
           <entry key="copyFrom" value="1" />
           <entry key="copyTo" value="1" />
-          <entry key="java" value="13" />
+          <entry key="java" value="14" />
           <entry key="text" value="1" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="14" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -41,14 +41,14 @@
         <counts>
           <entry key="copyFrom" value="58" />
           <entry key="dummy" value="6" />
-          <entry key="java" value="4748" />
+          <entry key="java" value="5008" />
           <entry key="text" value="332" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4748" />
+          <entry key="JAVA" value="5008" />
           <entry key="PLAIN_TEXT" value="425" />
         </counts>
       </usages-collector>
@@ -56,15 +56,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/strings/StringArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="391">
               <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="e#84#85#0" expanded="true" />
                 <element signature="e#125#126#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strings/StringImmutability.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -108,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/main/java/arrays/TwoDimentionalArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/TwoDimensionalArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/strings/StringArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strings/StringImmutability.java" />
       </list>
     </option>
   </component>
@@ -187,20 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringArray">
-    <configuration name="House" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="constructors.House" />
-      <module name="Java_core-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="constructors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringImmutability">
     <configuration name="QueueInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.QueueInArray" />
       <module name="Java_core-practice" />
@@ -216,6 +213,19 @@
     </configuration>
     <configuration name="StringArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.StringArray" />
+      <module name="Java_core-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringImmutability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StringImmutability" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
@@ -254,19 +264,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.House" />
       <item itemvalue="Application.StringReverseJoin" />
       <item itemvalue="Application.QueueInArray" />
       <item itemvalue="Application.TwoDimensionalArray" />
       <item itemvalue="Application.StringArray" />
+      <item itemvalue="Application.StringImmutability" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringImmutability" />
         <item itemvalue="Application.StringArray" />
         <item itemvalue="Application.TwoDimensionalArray" />
         <item itemvalue="Application.QueueInArray" />
         <item itemvalue="Application.StringReverseJoin" />
-        <item itemvalue="Application.House" />
       </list>
     </recent_temporary>
   </component>
@@ -438,12 +448,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/strings/StringArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="391">
           <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding>
             <element signature="e#84#85#0" expanded="true" />
             <element signature="e#125#126#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strings/StringImmutability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>

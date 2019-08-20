@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/constructors/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strings/StringReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/QueueInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_core-practice/FileHelp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_core-practice/FilesTry1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_core-practice/FilesTry2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_core-practice/Help.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_core-practice/Hyphen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_core-practice/Hyphen2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_core-practice/strings/StringReverse.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,73 +27,41 @@
         <counts>
           <entry key="copyFrom" value="1" />
           <entry key="copyTo" value="1" />
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
           <entry key="text" value="1" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="copyFrom" value="58" />
-          <entry key="java" value="3010" />
+          <entry key="dummy" value="4" />
+          <entry key="java" value="3842" />
           <entry key="text" value="332" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3010" />
-          <entry key="PLAIN_TEXT" value="419" />
+          <entry key="JAVA" value="3842" />
+          <entry key="PLAIN_TEXT" value="423" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/constructors/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/constructors/House.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/strings/StringReverse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/collections/QueueInArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="561">
+              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -135,8 +97,11 @@
         <option value="$PROJECT_DIR$/src/main/java/FilesTry2.java" />
         <option value="$PROJECT_DIR$/src/main/java/read_write_from_files/Help.java" />
         <option value="$PROJECT_DIR$/src/main/java/constructors/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/java/constructors/House.java" />
         <option value="$PROJECT_DIR$/src/main/java/strings/StringReverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strings/StringReverseJoin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/collections/queue/QueueInArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/constructors/House.java" />
+        <option value="$PROJECT_DIR$/src/main/java/collections/QueueInArray.java" />
       </list>
     </option>
   </component>
@@ -176,6 +141,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java_core-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_core-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -208,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringReverse">
+  <component name="RunManager" selected="Application.QueueInArray">
     <configuration name="FilesTry1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="read_write_from_files.FilesTry1" />
       <module name="Java_core-practice" />
@@ -236,15 +209,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hyphen2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="read_write_from_files.Hyphen2" />
+    <configuration name="QueueInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.QueueInArray" />
       <module name="Java_core-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.StringReverse" />
+    <configuration name="StringReverseJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StringReverseJoin" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
@@ -257,19 +236,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Hyphen2" />
       <item itemvalue="Application.FilesTry1" />
       <item itemvalue="Application.FilesTry2" />
       <item itemvalue="Application.House" />
-      <item itemvalue="Application.StringReverse" />
+      <item itemvalue="Application.StringReverseJoin" />
+      <item itemvalue="Application.QueueInArray" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringReverse" />
+        <item itemvalue="Application.QueueInArray" />
+        <item itemvalue="Application.StringReverseJoin" />
         <item itemvalue="Application.House" />
         <item itemvalue="Application.FilesTry2" />
         <item itemvalue="Application.FilesTry1" />
-        <item itemvalue="Application.Hyphen2" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +267,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -389,6 +367,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strings/StringReverseJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/constructors/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/constructors/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -402,26 +403,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constructors/House.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/QueueInArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strings/StringReverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="561">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
         </state>
       </provider>
     </entry>

@@ -5,32 +5,32 @@ public class CipherByStringAdnXOR { // Cipher the original message using XOR and
         String originalMsg = "This is a super-puper-secret message";
         String encodedMsg = "";
         String decodedMsg = "";
-        String encoder = "New-Zealand";
-        int encoderCharIndex = 0;
+        String encoder = "Nebraska";
 
-        System.out.println("Original message: " + originalMsg);
+        int size = encoder.length();
 
+        System.out.println("Original message: ");
+        System.out.println(originalMsg);
+        System.out.println("==================");
+
+        int j = 0;
         for (int i = 0; i < originalMsg.length(); i++) {
-            if (encoderCharIndex < encoder.length()) {
-                encodedMsg = encodedMsg + (char) (originalMsg.charAt(i) ^ encoder.charAt(encoderCharIndex));
-                encoderCharIndex++;
-            }else {
-                encoderCharIndex = 0;
-                encodedMsg = encodedMsg + (char) (originalMsg.charAt(i) ^ encoder.charAt(encoderCharIndex));
-            }
+            encodedMsg = encodedMsg + (char) (originalMsg.charAt(i) ^ encoder.charAt(j));
+            j++;
+            if (j == (encoder.length() - 1)) j = 0;
         }
-        System.out.println("Encoded message: " + encodedMsg);
+        System.out.println("Encoded message: ");
+        System.out.println(encodedMsg);
+        System.out.println("==================");
 
-        encoderCharIndex = 0;
+        j = 0;
         for (int i = 0; i < encodedMsg.length(); i++) {
-            if (encoderCharIndex < encoder.length()) {
-                decodedMsg = decodedMsg + (char) (encodedMsg.charAt(i) ^ encoder.charAt(encoderCharIndex));
-                encoderCharIndex++;
-            }else {
-                encoderCharIndex = 0;
-                decodedMsg = decodedMsg + (char) (encodedMsg.charAt(i) ^ encoder.charAt(encoderCharIndex));
-            }
+            decodedMsg = decodedMsg + (char) (encodedMsg.charAt(i) ^ encoder.charAt(j));
+            j++;
+            if (j == (encoder.length() - 1)) j = 0;
         }
-        System.out.println("Decoded message: " + decodedMsg);
+        System.out.println("Decoded message: ");
+        System.out.println(decodedMsg);
+        System.out.println("==================");
     }
 }

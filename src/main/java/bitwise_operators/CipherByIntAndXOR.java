@@ -1,7 +1,7 @@
 package bitwise_operators;
 
-public class CipherWithXOR {
-    public static void main(String[] args) { // using XOR twise returns to the original
+public class CipherByIntAndXOR { // Cipher the original message using XOR and an int as encoder
+    public static void main(String[] args) { // using XOR twice returns to the original
         String originalMsg= "This is a secret message";
         String encodedMsg = "";
         String decodedMsg = "";

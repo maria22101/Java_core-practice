@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strings/StringArraySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bitwise_operators/CipherWithStringAdnXOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bitwise_operators/CipherWithXOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bitwise_operators/CipherWithIntAndXOR.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +15,7 @@
     <session id="1109424486">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -26,41 +26,50 @@
         <counts>
           <entry key="copyFrom" value="1" />
           <entry key="copyTo" value="1" />
-          <entry key="java" value="26" />
+          <entry key="java" value="28" />
           <entry key="text" value="1" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="28" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="copyFrom" value="58" />
-          <entry key="dummy" value="33" />
-          <entry key="java" value="7825" />
+          <entry key="dummy" value="43" />
+          <entry key="java" value="8294" />
           <entry key="text" value="332" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7825" />
-          <entry key="PLAIN_TEXT" value="452" />
+          <entry key="JAVA" value="8294" />
+          <entry key="PLAIN_TEXT" value="462" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/strings/StringArraySort.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bitwise_operators/CipherByIntAndXOR.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bitwise_operators/CipherByStringAdnXOR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -109,10 +118,13 @@
         <option value="$PROJECT_DIR$/src/main/java/bitwise_operators/CapsChars.java" />
         <option value="$PROJECT_DIR$/src/main/java/bitwise_operators/BitsWithinByte.java" />
         <option value="$PROJECT_DIR$/src/main/java/bitwise_operators/LowChars.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bitwise_operators/CipherWithXOR.java" />
         <option value="$PROJECT_DIR$/src/main/java/bitwise_operators/DecimalToBinary.java" />
         <option value="$PROJECT_DIR$/src/main/java/bitwise_operators/TernaryOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/strings/StringArraySort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bitwise_operators/CipherWithXOR.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bitwise_operators/CipherWithIntAndXOR.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bitwise_operators/CipherByIntAndXOR.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bitwise_operators/CipherByStringAdnXOR.java" />
       </list>
     </option>
   </component>
@@ -158,6 +170,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bitwise_operators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_core-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_core-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="strings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -192,9 +212,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringArraySort">
-    <configuration name="CipherWithXOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bitwise_operators.CipherWithXOR" />
+  <component name="RunManager" selected="Application.CipherByStringAdnXOR">
+    <configuration name="CipherByIntAndXOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitwise_operators.CipherByIntAndXOR" />
+      <module name="Java_core-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bitwise_operators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CipherByStringAdnXOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitwise_operators.CipherByStringAdnXOR" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
@@ -208,19 +241,6 @@
     </configuration>
     <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bitwise_operators.DecimalToBinary" />
-      <module name="Java_core-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bitwise_operators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LowChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bitwise_operators.LowChars" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
@@ -259,19 +279,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LowChars" />
-      <item itemvalue="Application.CipherWithXOR" />
+      <item itemvalue="Application.CipherByIntAndXOR" />
       <item itemvalue="Application.DecimalToBinary" />
       <item itemvalue="Application.TernaryOperator" />
       <item itemvalue="Application.StringArraySort" />
+      <item itemvalue="Application.CipherByStringAdnXOR" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CipherByStringAdnXOR" />
         <item itemvalue="Application.StringArraySort" />
         <item itemvalue="Application.TernaryOperator" />
         <item itemvalue="Application.DecimalToBinary" />
-        <item itemvalue="Application.CipherWithXOR" />
-        <item itemvalue="Application.LowChars" />
+        <item itemvalue="Application.CipherByIntAndXOR" />
       </list>
     </recent_temporary>
   </component>
@@ -291,15 +311,15 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41666666" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41666666" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -500,17 +520,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bitwise_operators/CipherWithXOR.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/strings/StringArraySort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strings/StringArraySort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitwise_operators/CipherByIntAndXOR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitwise_operators/CipherByStringAdnXOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

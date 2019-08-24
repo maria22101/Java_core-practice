@@ -1,5 +1,11 @@
 package control_statements;
 
+import java.util.*;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class Envelope { //consoleReflectionKoef - to be adjusted for proper diagonal reflection (depends on the dimensions)
     int length;
     int width;
@@ -50,7 +56,7 @@ public class Envelope { //consoleReflectionKoef - to be adjusted for proper diag
         }
     }
 
-    void printRectangular(){
+    void printRectangular() {
         for (int i = 0; i < this.getY(); i++) {
             for (int j = 0; j < this.getX(); j++) {
                 if (this.isBorder(i, j)) {
@@ -76,4 +82,43 @@ public class Envelope { //consoleReflectionKoef - to be adjusted for proper diag
         }
         printRectangular();
     }
+
+    void printClosedUsingOneLoop() {
+        double consoleReflectionKoef = 1.7;
+        int dimKoef = (int) (this.getX() / this.getY() * consoleReflectionKoef);
+        String envelopeInnerLine = null;
+        String middleSpaceLine = null;
+
+        for (int i = 0; i < this.getY(); i++) {
+
+            if (i == 0 || i == this.getY() - 1) {
+                System.out.println(String.format("%0" + this.getX() + "d", 0).replace("0", "*"));
+
+            } else if (i < this.getY() / 2) {
+                int countSideSpaces = i * dimKoef - 1;
+                if (countSideSpaces > 0) {
+                    String side = String.format("%0" + countSideSpaces + "d", 0).replace("0", " ");
+                    int countMiddleSpaces = this.getX() - 4 - 2 * side.length();
+                    if (countMiddleSpaces > 0) {
+                        middleSpaceLine = String.format("%0" + countMiddleSpaces + "d", 0).replace("0", " ");
+                        envelopeInnerLine = "*" + String.join("*", side, middleSpaceLine, side) + "*";
+                    } else {
+                        envelopeInnerLine = "*" + String.join("*", side, side) + "*";
+                    }
+                }else {
+                    int countMiddleSpaces = this.getX() - 4;
+                    middleSpaceLine = String.format("%0" + countMiddleSpaces + "d", 0).replace("0", " ");
+                    envelopeInnerLine = "*" + middleSpaceLine + "*";
+                }
+                System.out.println(envelopeInnerLine);
+
+            } else {
+                String side = String.format("%0" + (this.getX() - ((i + 1) * dimKoef - 1)) + "d", 0).replace("0", " ");
+                String middle = String.format("%0" + (this.getX() - 4 - 2 * side.length()) + "d", 0).replace("0", " ");
+                envelopeInnerLine = "*" + String.join("*", side, middle, side) + "*";
+                System.out.println(envelopeInnerLine);
+            }
+        }
+    }
+
 }

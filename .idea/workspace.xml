@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayAutoResizableStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArraysMethods01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayRandomInts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,78 +17,55 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="copyFrom" value="1" />
           <entry key="copyTo" value="1" />
-          <entry key="java" value="48" />
+          <entry key="java" value="49" />
           <entry key="text" value="1" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="48" />
+          <entry key="JAVA" value="49" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="copyFrom" value="58" />
-          <entry key="dummy" value="55" />
-          <entry key="java" value="16276" />
+          <entry key="dummy" value="62" />
+          <entry key="java" value="16816" />
           <entry key="text" value="332" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16276" />
-          <entry key="PLAIN_TEXT" value="474" />
+          <entry key="JAVA" value="16816" />
+          <entry key="PLAIN_TEXT" value="481" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArraysMethods01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="86" lean-forward="true" selection-start-line="44" selection-start-column="86" selection-end-line="44" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArrayCopy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArrayAutoResizableStorage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArrayRandomInts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-              <folding>
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="612">
+              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -155,6 +131,8 @@
         <option value="$PROJECT_DIR$/src/main/java/arrays/ArraysMethods01.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/ArrayCopy.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/ArrayAutoResizableStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arrays/ArrayRandomChars.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arrays/ArrayRandomInts.java" />
       </list>
     </option>
   </component>
@@ -169,6 +147,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,8 +186,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayAutoResizableStorage">
+  <component name="RunManager" selected="Application.ArrayRandomInts">
     <configuration name="ArrayAutoResizableStorage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayAutoResizableStorage" />
       <module name="Java_core-practice" />
@@ -250,6 +228,19 @@
     </configuration>
     <configuration name="ArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayCopy" />
+      <module name="Java_core-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayRandomInts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayRandomInts" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
@@ -287,33 +278,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnvelopeClosed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="control_statements.EnvelopeClosed" />
-      <module name="Java_core-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="control_statements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.EnvelopeClosed" />
       <item itemvalue="Application.CharArrayQuickSort" />
       <item itemvalue="Application.ArraysMethods01" />
       <item itemvalue="Application.ArrayCopy" />
       <item itemvalue="Application.ArrayAutoResizableStorage" />
+      <item itemvalue="Application.ArrayRandomInts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayRandomInts" />
         <item itemvalue="Application.ArrayAutoResizableStorage" />
         <item itemvalue="Application.ArrayCopy" />
         <item itemvalue="Application.ArraysMethods01" />
         <item itemvalue="Application.CharArrayQuickSort" />
-        <item itemvalue="Application.EnvelopeClosed" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +312,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24357034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -575,6 +553,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArrayAutoResizableStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArrayCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArraysMethods01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -582,23 +574,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArrayCopy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArrayRandomInts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArrayAutoResizableStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-          <folding>
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="612">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
         </state>
       </provider>
     </entry>

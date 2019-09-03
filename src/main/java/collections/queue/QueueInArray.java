@@ -1,4 +1,4 @@
-package collections;
+package collections.queue;
 
 public class QueueInArray { //a queue based upon an array - example made with chars & Alphabet
     char[] charQ;

@@ -50,13 +50,13 @@ public class CharCounter {
                 .collect(Collectors.toList());
     }
 
-    Map<Character, Pair<Integer, List<Integer>>> getWithPosition1() {
+    Map<Character, Pair<Integer, List<Integer>>> getNumOfCharsWithPositions1() {
         Map<Character, Pair<Integer, List<Integer>>> result = new HashMap<>();
         storage.forEach((ch, list) -> result.put(ch, new Pair<>(list.size(), list)));
         return result;
     }
 
-    Map<Character, Pair<Integer, List<Integer>>> getWithPosition2() {
+    Map<Character, Pair<Integer, List<Integer>>> getNumOfCharsWithPositions2() {
         Map<Character, Pair<Integer, List<Integer>>> result = new HashMap<>();
 
         BiConsumer<Character, List<Integer>> function = new BiConsumer<Character, List<Integer>>() {
@@ -70,7 +70,7 @@ public class CharCounter {
         return result;
     }
 
-    Map<Character, Pair<Integer, List<Integer>>> getWithPosition3() {
+    Map<Character, Pair<Integer, List<Integer>>> getNumOfCharsWithPositions3() {
         Map<Character, Pair<Integer, List<Integer>>> result = new HashMap<>();
         BiConsumer<Character, List<Integer>> function = (character, integers) ->
                 result.put(character, new Pair<Integer, List<Integer>>(integers.size(), integers));

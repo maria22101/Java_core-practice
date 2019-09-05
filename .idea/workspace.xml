@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/CharCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/CharCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/CharIntPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/CharIntPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/MainCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/calculator/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/calculator/AddWithHundred.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/calculator/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/calculator/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/calculator/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/calculator/Substract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,14 +37,14 @@
         <counts>
           <entry key="copyFrom" value="1" />
           <entry key="copyTo" value="1" />
-          <entry key="java" value="60" />
+          <entry key="java" value="71" />
           <entry key="text" value="1" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="60" />
+          <entry key="JAVA" value="71" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -46,14 +52,14 @@
         <counts>
           <entry key="copyFrom" value="58" />
           <entry key="dummy" value="90" />
-          <entry key="java" value="20969" />
+          <entry key="java" value="21323" />
           <entry key="text" value="332" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="20969" />
+          <entry key="JAVA" value="21323" />
           <entry key="PLAIN_TEXT" value="509" />
         </counts>
       </usages-collector>
@@ -62,51 +68,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/collections/streams/Stream01.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/Operation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/Add.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/CharCounter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/AddWithHundred.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="72" column="75" selection-start-line="72" selection-start-column="75" selection-end-line="72" selection-end-column="75" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#add#0;class#CharCounter#0" />
-                <element signature="method#getNumberOfChars1#0;class#CharCounter#0" />
-                <element signature="method#getNumberOfChars2#0;class#CharCounter#0" />
-                <element signature="method#getNumberOfChars3#0;class#CharCounter#0" />
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/Pair.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/Substract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding>
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/CharIntPair.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/MainCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+            <state relative-caret-position="255">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/Multiply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding>
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/Divide.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding>
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,6 +160,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -132,15 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/text" />
-        <option value="$PROJECT_DIR$/src/main/java/Help.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FileHelp.java" />
-        <option value="$PROJECT_DIR$/copyFrom" />
-        <option value="$PROJECT_DIR$/src/main/java/Hyphen.java" />
-        <option value="$PROJECT_DIR$/copyFrom.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/Hyphen2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FilesTry1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FilesTry2.java" />
         <option value="$PROJECT_DIR$/src/main/java/read_write_from_files/Help.java" />
         <option value="$PROJECT_DIR$/src/main/java/constructors/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/strings/StringReverse.java" />
@@ -181,8 +216,17 @@
         <option value="$PROJECT_DIR$/src/main/java/collections/streams/Stream01.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/map/Pair.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/queue/priorityQueue01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/collections/map/CharCounter.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/map/CharIntPair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/collections/map/CharCounter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/calculator/Operation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/Operation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/Multiply.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/Divide.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/Add.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/AddWithHundred.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/calculator/AddWithHundred.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/Substract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/MainCalc.java" />
       </list>
     </option>
   </component>
@@ -229,34 +273,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_core-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_core-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_core-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_core-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_core-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_core-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="streams" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,13 +306,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CharIntPair">
-    <configuration name="ArrayRandomInts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArrayRandomInts" />
+  <component name="RunManager" selected="Application.MainCalc">
+    <configuration name="CharIntPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.map.CharIntPair" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharIntPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.map.CharIntPair" />
+    <configuration name="MainCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.MainCalc" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.map.*" />
+          <option name="PATTERN" value="interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,19 +373,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayRandomInts" />
       <item itemvalue="Application.SmartConstructors" />
       <item itemvalue="Application.Stream01" />
       <item itemvalue="Application.priorityQueue01" />
       <item itemvalue="Application.CharIntPair" />
+      <item itemvalue="Application.MainCalc" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCalc" />
         <item itemvalue="Application.CharIntPair" />
         <item itemvalue="Application.priorityQueue01" />
         <item itemvalue="Application.Stream01" />
         <item itemvalue="Application.SmartConstructors" />
-        <item itemvalue="Application.ArrayRandomInts" />
       </list>
     </recent_temporary>
   </component>
@@ -389,14 +406,14 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24432677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24432677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3469388" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3469388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41156462" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -595,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/iterable/IterableEx01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/strings/StringArraySort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -658,15 +668,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/streams/Stream01.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/CharCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        <state relative-caret-position="161">
+          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
+            <element signature="method#add#0;class#CharCounter#0" />
+            <element signature="method#getNumberOfChars1#0;class#CharCounter#0" />
+            <element signature="method#getNumberOfChars2#0;class#CharCounter#0" />
+            <element signature="method#getNumberOfChars3#0;class#CharCounter#0" />
+            <element signature="method#getWithPosition1#0;class#CharCounter#0" />
+            <element signature="method#getWithPosition2#0;class#CharCounter#0" />
+            <element signature="method#accept#0;class#2096:2360" />
+            <element signature="method#getWithPosition3#0;class#CharCounter#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/CharIntPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="52" column="74" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/iterable/IterableEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -684,31 +724,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/Pair.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/streams/Stream01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/CharCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="72" column="75" selection-start-line="72" selection-start-column="75" selection-end-line="72" selection-end-column="75" />
+        <state relative-caret-position="424">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#add#0;class#CharCounter#0" />
-            <element signature="method#getNumberOfChars1#0;class#CharCounter#0" />
-            <element signature="method#getNumberOfChars2#0;class#CharCounter#0" />
-            <element signature="method#getNumberOfChars3#0;class#CharCounter#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/CharIntPair.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/Multiply.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/Substract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/AddWithHundred.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/Divide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/MainCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

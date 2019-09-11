@@ -5,9 +5,9 @@ import java.util.Random;
 
 public class LinearSearch {
     public static void main(String[] args) {
-        int[] a = SelectionSort.generateArray(0, 12, 10);
+        int[] a = AlgorithmOperations.generateArray(0, 12, 10);
         System.out.println(Arrays.toString(a));
-        int toFind = (int) (Math.random() * 13);
+        int toFind = (int) (Math.random() * 12);
         System.out.println(toFind);
 
         for (int i = 0; i < a.length; i++) {

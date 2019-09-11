@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,14 +32,14 @@
         <counts>
           <entry key="copyFrom" value="1" />
           <entry key="copyTo" value="1" />
-          <entry key="java" value="82" />
+          <entry key="java" value="84" />
           <entry key="text" value="1" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="82" />
+          <entry key="JAVA" value="84" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -46,14 +47,14 @@
         <counts>
           <entry key="copyFrom" value="58" />
           <entry key="dummy" value="90" />
-          <entry key="java" value="23223" />
+          <entry key="java" value="23889" />
           <entry key="text" value="332" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23223" />
+          <entry key="JAVA" value="23889" />
           <entry key="PLAIN_TEXT" value="509" />
         </counts>
       </usages-collector>
@@ -70,11 +71,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/arrays/TwoDimensionalArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/strings/StringArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/strings/StringImmutability.java" />
         <option value="$PROJECT_DIR$/src/main/java/strings/CommandLineArgs.java" />
@@ -151,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithms/AlgorithmOperations.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithms/LinearSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithms/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -200,6 +213,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java_core-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_core-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -230,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.BubbleSort" />
       <module name="Java_core-practice" />
@@ -257,8 +278,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.SelectionSort" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.MergeSort" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
@@ -270,12 +291,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.stack.Stack01" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.SelectionSort" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.stack.*" />
+          <option name="PATTERN" value="algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,19 +318,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Stack01" />
       <item itemvalue="Application.StringBackwards" />
       <item itemvalue="Application.SelectionSort" />
       <item itemvalue="Application.LinearSearch" />
       <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.StringBackwards" />
-        <item itemvalue="Application.Stack01" />
       </list>
     </recent_temporary>
   </component>
@@ -358,13 +379,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/read_write_from_files/FilesTry1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/read_write_from_files/Hyphen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -516,13 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArrayCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -719,6 +726,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArrayCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

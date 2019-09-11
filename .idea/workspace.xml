@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/LinearSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,14 +32,14 @@
         <counts>
           <entry key="copyFrom" value="1" />
           <entry key="copyTo" value="1" />
-          <entry key="java" value="78" />
+          <entry key="java" value="79" />
           <entry key="text" value="1" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="78" />
+          <entry key="JAVA" value="79" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -47,14 +47,14 @@
         <counts>
           <entry key="copyFrom" value="58" />
           <entry key="dummy" value="90" />
-          <entry key="java" value="22865" />
+          <entry key="java" value="23073" />
           <entry key="text" value="332" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22865" />
+          <entry key="JAVA" value="23073" />
           <entry key="PLAIN_TEXT" value="509" />
         </counts>
       </usages-collector>
@@ -62,11 +62,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="435">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/LinearSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/constructors/House.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/QueueInArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/TwoDimentionalArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/TwoDimensionalArray.java" />
@@ -143,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/main/java/inheritance/TwoDimShape.java" />
         <option value="$PROJECT_DIR$/src/main/java/inheritance/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithms/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/LinearSearch.java" />
       </list>
     </option>
   </component>
@@ -222,13 +234,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
-    <configuration name="CharIntPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.map.CharIntPair" />
+  <component name="RunManager" selected="Application.LinearSearch">
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.LinearSearch" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.map.*" />
+          <option name="PATTERN" value="algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,19 +301,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CharIntPair" />
       <item itemvalue="Application.MainCalc" />
       <item itemvalue="Application.Stack01" />
       <item itemvalue="Application.StringBackwards" />
       <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.LinearSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.StringBackwards" />
         <item itemvalue="Application.Stack01" />
         <item itemvalue="Application.MainCalc" />
-        <item itemvalue="Application.CharIntPair" />
       </list>
     </recent_temporary>
   </component>
@@ -350,13 +362,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/read_write_from_files/Hyphen2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -706,8 +711,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="435">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/LinearSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

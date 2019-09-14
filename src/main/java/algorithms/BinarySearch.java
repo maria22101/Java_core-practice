@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class BinarySearch {
 
-    static int[] bubbleSort(int[] a){
+    static int[] bubbleSort(int[] a) {
         int i = a.length;
         while (i != 1) {
             for (int j = 0; j < i - 1; j++) {
@@ -17,34 +17,31 @@ public class BinarySearch {
         return a;
     }
 
-    static void binarSearch(int[] a, int x){
-        int len = a.length / 2;
-        boolean found = false;
+    static void binarySearch(int[] a, int x, int from, int to) {
+        int half = (from + to) / 2;
 
-        while (!found && len != 1){
-
-            for (int i = 0; i < a[len]; i++) {
-                if (a[i] == x){
-                    found = true;
-                }
-            }
-
-            if (!found){
-                for (int i = a[a.length - len]; i < a.length; i++) {
-                    if (a[i] == x){
-                        found = true;
-                    }
-                }
-            }
-
-         }
+        if (x == a[half]) {
+            System.out.println(x + " found at index #" + half);
+            return;
+        }
+        if (from == to) {
+            System.out.println(x + " not found in this array");
+            return;
+        }
+        if (x < a[half]) {
+            binarySearch(a, x, from, to - 1);
+        } else {
+            binarySearch(a, x, from + 1, to);
+        }
     }
 
     public static void main(String[] args) {
-        int[] a = AlgorithmOperations.generateArray(0, 60, 20);
+        int[] a = AlgorithmOperations.generateArray(0, 30, 20);
         System.out.println(Arrays.toString(a));
         System.out.println(Arrays.toString(bubbleSort(a)));
 
-
+        int from = 0;
+        int to = a.length;
+        binarySearch(a, 18, from, to);
     }
 }

@@ -2,7 +2,7 @@ package algorithms;
 
 import java.util.Arrays;
 
-public class BinarySearch {
+public class BinarySearchRecursive {
 
     static int[] bubbleSort(int[] a) {
         int i = a.length;

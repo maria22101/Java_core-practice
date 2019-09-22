@@ -22,6 +22,7 @@ public class QueueChartsFixed implements QueueCharsBasic {
     public char get() {
         if (getIndex == putIndex){
             System.out.println("Queue is empty");
+            return (char) 0;
         }
         return q[getIndex++];
     }

@@ -33,4 +33,9 @@ public class QueueCharsCircular implements QueueCharsBasic {
         }
         return q[getIndex++];
     }
+
+    @Override
+    public int getSize() {
+        return q.length - 1;
+    }
 }

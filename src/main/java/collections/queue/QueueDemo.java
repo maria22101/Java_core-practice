@@ -16,7 +16,6 @@ public class QueueDemo {
         System.out.print("Fixed queue content: ");
         for (int i = 0; i < 12; i++) {
             System.out.print(iQ.get());
-            ;
         }
         System.out.println();
 
@@ -53,6 +52,20 @@ public class QueueDemo {
         System.out.print("Dynamic queue content: ");
         for (int i = 0; i < 7; i++) {
             System.out.print(iQ.get());
+        }
+        System.out.println();
+
+        //Demonstrating a queue-to-queue copy method
+        QueueCharsBasic q4 = new QueueChartsFixed(4);
+        QueueCharsBasic q5 = new QueueChartsFixed(4);
+        for (int i = 0; i < 4; i++) {
+            q4.put((char) ('W' + i));
+        }
+
+        QueueCharsDynamic.copyFromQueue(q5, q4);
+        System.out.print("The copied content: ");
+        for (int i = 0; i < 4; i++) {
+            System.out.print(q5.get());
         }
     }
 }

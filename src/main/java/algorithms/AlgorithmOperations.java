@@ -11,8 +11,6 @@ public class AlgorithmOperations {
         arr[index_2] = temp;
     }
 
-
-
     static int[] generateArray(int from, int to, int length){
         int[] arr = new int[length];
         for (int i = 0; i < length; i++) {

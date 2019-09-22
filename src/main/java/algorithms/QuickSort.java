@@ -10,7 +10,7 @@ public class QuickSort {
         boolean swapped = false;
 
         while (runningIndex < endIndex) {
-            if (data[runningIndex] < data[endIndex]) {
+            if (data[runningIndex] <= data[endIndex]) {
                 if (maxIndex == runningIndex) {
                     maxIndex++;
                 } else {
@@ -28,10 +28,9 @@ public class QuickSort {
             swapped = true;
             counter_permutation++;
         }
-        if (maxIndex > startIndex && swapped) {
+        if ((maxIndex > startIndex && swapped) || (maxIndex > startIndex && maxIndex == runningIndex) ) {
             System.out.println("We are sorting 1st half...");
             doSort(data, startIndex, maxIndex - 1);
-            swapped = true;
         }
         if (maxIndex < endIndex && swapped) {
             System.out.println("We are sorting 2nd half...");
@@ -40,7 +39,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = AlgorithmOperations.generateArray(0, 100, 15);
+        int[] arr = AlgorithmOperations.generateArray(0, 30, 20);
         AlgorithmOperations.printArray("Original array: ", arr);
 
         int from = 0;

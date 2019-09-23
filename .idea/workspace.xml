@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/date_and_time/DateDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsCircular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsDynamic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/queue/QueueChartsFixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/queue/QueueChartsFixed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/queue/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/queue/QueueDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,14 +35,14 @@
         <counts>
           <entry key="copyFrom" value="1" />
           <entry key="copyTo" value="1" />
-          <entry key="java" value="108" />
+          <entry key="java" value="113" />
           <entry key="text" value="1" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="108" />
+          <entry key="JAVA" value="113" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -54,14 +50,14 @@
         <counts>
           <entry key="copyFrom" value="58" />
           <entry key="dummy" value="106" />
-          <entry key="java" value="32512" />
+          <entry key="java" value="33082" />
           <entry key="text" value="332" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="32512" />
+          <entry key="JAVA" value="33082" />
           <entry key="PLAIN_TEXT" value="525" />
         </counts>
       </usages-collector>
@@ -110,10 +106,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/QueueDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/date_and_time/DateDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+            <state relative-caret-position="714">
+              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/bitwise_operators/CipherByStringAdnXOR.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/Envelope.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/EnvelopeClosed.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/iterable/IterableEx01.java" />
@@ -190,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsCircular.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsDynamic.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/queue/QueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/date_and_time/DateDemo.java" />
       </list>
     </option>
   </component>
@@ -229,23 +228,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Java_core-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_core-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_core-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_core-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -278,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueueDemo">
+  <component name="RunManager" selected="Application.DateDemo">
     <configuration name="BinarySearchIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.BinarySearchIterative" />
       <module name="Java_core-practice" />
@@ -292,12 +274,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.MergeSort_2" />
+    <configuration name="DateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="date_and_time.DateDemo" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.*" />
+          <option name="PATTERN" value="date_and_time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,19 +327,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeSort_2" />
       <item itemvalue="Application.BinarySearchIterative" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.QuickSort2" />
       <item itemvalue="Application.QueueDemo" />
+      <item itemvalue="Application.DateDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateDemo" />
         <item itemvalue="Application.QueueDemo" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.QuickSort2" />
         <item itemvalue="Application.BinarySearchIterative" />
-        <item itemvalue="Application.MergeSort_2" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +367,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3622449" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3622449" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42517006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,7 +375,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.27380952" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.457483" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -406,20 +388,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/bitwise_operators/CipherByIntAndXOR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/control_statements/Envelope.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -466,20 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="44" column="86" lean-forward="true" selection-start-line="44" selection-start-column="86" selection-end-line="44" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constructors/House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constructors/SmartConstructors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -728,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/QueueChartsFixed.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -753,6 +700,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/QueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/constructors/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/constructors/SmartConstructors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+          <folding>
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/constructors/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsDynamic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -760,10 +762,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/QueueDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/date_and_time/DateDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+        <state relative-caret-position="714">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -66,6 +66,10 @@ public class StreamsDemo1 {
                 .collect(Collectors.toCollection(PriorityQueue::new));
     }
 
+    public static Stream<Integer> getStream(){
+        return Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+    }
+
     public static void main(String[] args) {
         List<Integer> origin = generateListInts(0, 10, 20);
         System.out.println(origin);
@@ -75,5 +79,7 @@ public class StreamsDemo1 {
         System.out.println(countListDuplicates(origin));
         System.out.println(generateEvenIntList(100, 20));
         System.out.println(generateOddIntPriorityQueue(100, 20));
+
+        getStream().filter(el -> el % 2 != 0).forEach(System.out::print);
     }
 }

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/StreamsDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/StreamsDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/AlgorithmOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/AlgorithmOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/StreamsDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/StreamsDemo1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,14 +38,14 @@
         <counts>
           <entry key="copyFrom" value="1" />
           <entry key="copyTo" value="1" />
-          <entry key="java" value="115" />
+          <entry key="java" value="116" />
           <entry key="text" value="1" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="115" />
+          <entry key="JAVA" value="116" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -51,14 +53,14 @@
         <counts>
           <entry key="copyFrom" value="58" />
           <entry key="dummy" value="106" />
-          <entry key="java" value="34156" />
+          <entry key="java" value="35242" />
           <entry key="text" value="332" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="34156" />
+          <entry key="JAVA" value="35242" />
           <entry key="PLAIN_TEXT" value="525" />
         </counts>
       </usages-collector>
@@ -66,11 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/streams/StreamsDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
+            <state relative-caret-position="163">
+              <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
               <folding>
                 <element signature="e#396#397#0" expanded="true" />
                 <element signature="e#452#453#0" expanded="true" />
@@ -78,6 +80,20 @@
                 <element signature="e#1580#1581#0" expanded="true" />
                 <element signature="e#1983#1984#0" expanded="true" />
                 <element signature="e#2062#2063#0" expanded="true" />
+                <element signature="e#2269#2270#0" expanded="true" />
+                <element signature="e#2302#2303#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/streams/StreamsDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/AlgorithmOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="180">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
                 <element signature="e#873#874#0" expanded="true" />
                 <element signature="e#948#949#0" expanded="true" />
@@ -117,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/arrays/EnvelopeClosed.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/iterable/IterableEx01.java" />
         <option value="$PROJECT_DIR$/src/main/java/control_statements/EnvelopeOpen.java" />
         <option value="$PROJECT_DIR$/src/main/java/control_statements/Envelope.java" />
@@ -167,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/main/java/collections/queue/QueueDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/date_and_time/DateDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithms/AlgorithmOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/streams/StreamsDemo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/streams/StreamsDemo1.java" />
       </list>
     </option>
@@ -208,6 +224,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_core-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_core-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="date_and_time" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_core-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_core-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="streams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,19 +311,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.QuickSort2" />
-      <module name="Java_core-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StreamsDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams.StreamsDemo1" />
       <module name="Java_core-practice" />
@@ -305,20 +324,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamsDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.StreamsDemo2" />
+      <module name="Java_core-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.QuickSort2" />
       <item itemvalue="Application.QueueDemo" />
       <item itemvalue="Application.DateDemo" />
       <item itemvalue="Application.StreamsDemo1" />
+      <item itemvalue="Application.StreamsDemo2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.StreamsDemo1" />
+        <item itemvalue="Application.StreamsDemo2" />
         <item itemvalue="Application.DateDemo" />
         <item itemvalue="Application.QueueDemo" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.QuickSort2" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +378,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3622449" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.4489796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42517006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -367,13 +399,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/control_statements/EnvelopeClosed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/control_statements/EnvelopeOpen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -719,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/AlgorithmOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="e#873#874#0" expanded="true" />
             <element signature="e#948#949#0" expanded="true" />
@@ -730,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/streams/StreamsDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
+        <state relative-caret-position="163">
+          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
           <folding>
             <element signature="e#396#397#0" expanded="true" />
             <element signature="e#452#453#0" expanded="true" />
@@ -739,6 +764,18 @@
             <element signature="e#1580#1581#0" expanded="true" />
             <element signature="e#1983#1984#0" expanded="true" />
             <element signature="e#2062#2063#0" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2302#2303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/streams/StreamsDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

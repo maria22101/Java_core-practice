@@ -11,6 +11,9 @@ public class Human {
         this.surname = surname;
     }
 
+    public Human() {
+    }
+
     public int getAge() {
         return age;
     }
@@ -33,5 +36,14 @@ public class Human {
 
     public void setSurname(String surname) {
         this.surname = surname;
+    }
+
+    @Override
+    public String toString() {
+        return "Human{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                '}';
     }
 }

@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions_handling/Not_Int_Result_CustomizedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/FunctionalInterfacesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/FirstCapitalLetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/FunctionalInterfacesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/FunctionalInterfacesDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +38,14 @@
         <counts>
           <entry key="copyFrom" value="1" />
           <entry key="copyTo" value="1" />
-          <entry key="java" value="128" />
+          <entry key="java" value="136" />
           <entry key="text" value="1" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="128" />
+          <entry key="JAVA" value="136" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -58,14 +53,14 @@
         <counts>
           <entry key="copyFrom" value="58" />
           <entry key="dummy" value="106" />
-          <entry key="java" value="37016" />
+          <entry key="java" value="37649" />
           <entry key="text" value="332" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37016" />
+          <entry key="JAVA" value="37649" />
           <entry key="PLAIN_TEXT" value="525" />
         </counts>
       </usages-collector>
@@ -76,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/streams/StreamsDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="61">
               <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
             </state>
           </provider>
@@ -106,20 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/streams/FunctionalInterfacesDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="238">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo6.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/streams/Converter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -145,11 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/arrays/ArrayRandomInts.java" />
-        <option value="$PROJECT_DIR$/src/main/java/constructors/SmartConstructors.java" />
-        <option value="$PROJECT_DIR$/src/main/java/collections/list/ArrayList01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/collections/streams/ArrayList01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/collections/streams/Stream01.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/map/Pair.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/queue/priorityQueue01.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/map/CharIntPair.java" />
@@ -188,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/main/java/streams/StreamsDemo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/streams/StreamsDemo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/streams/StreamsDemo3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/streams/FunctionalInterfacesDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo3.java" />
@@ -196,6 +185,12 @@
         <option value="$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo5.java" />
         <option value="$PROJECT_DIR$/src/main/java/exceptions_handling/Not_Int_Result_CustomizedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exceptions_handling/Queue_Full_CustomizedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exceptions_handling/Queue_Empty_CustomizedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsFixed_withException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/streams/Converter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/streams/FirstCapitalLetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/streams/FunctionalInterfacesDemo.java" />
       </list>
     </option>
   </component>
@@ -241,7 +236,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="date_and_time" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_core-practice" type="b2602c69:ProjectViewProjectNode" />
@@ -249,7 +244,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions_handling" type="462c0819:PsiDirectoryNode" />
+              <item name="date_and_time" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_core-practice" type="b2602c69:ProjectViewProjectNode" />
@@ -291,20 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExceptionDemo6">
-    <configuration name="ExceptionDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions_handling.ExceptionDemo2" />
-      <module name="Java_core-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptions_handling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FunctionalInterfacesDemo">
     <configuration name="ExceptionDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions_handling.ExceptionDemo3" />
       <module name="Java_core-practice" />
@@ -357,20 +339,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunctionalInterfacesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.FunctionalInterfacesDemo" />
+      <module name="Java_core-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ExceptionDemo2" />
       <item itemvalue="Application.ExceptionDemo3" />
       <item itemvalue="Application.ExceptionDemo4" />
       <item itemvalue="Application.ExceptionDemo5" />
       <item itemvalue="Application.ExceptionDemo6" />
+      <item itemvalue="Application.FunctionalInterfacesDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionalInterfacesDemo" />
         <item itemvalue="Application.ExceptionDemo6" />
         <item itemvalue="Application.ExceptionDemo5" />
         <item itemvalue="Application.ExceptionDemo4" />
         <item itemvalue="Application.ExceptionDemo3" />
-        <item itemvalue="Application.ExceptionDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -391,14 +386,14 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" sideWeight="0.50124687" side_tool="true" weight="0.23298033" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.35884354" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.35884354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42517006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,41 +414,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/iterable/IterableEx01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/QueueInArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/priorityQueue01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="98" lean-forward="true" selection-start-line="12" selection-start-column="98" selection-end-line="12" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/streams/Stream01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/Substract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/calculator/AddWithHundred.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -681,17 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/QueueChartsFixed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsBasic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -707,13 +656,6 @@
             <element signature="e#873#874#0" expanded="true" />
             <element signature="e#948#949#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/streams/StreamsDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -772,28 +714,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions_handling/Queue_Empty_CustomizedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions_handling/Queue_Full_CustomizedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/QueueCharsFixed_withException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding>
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/exceptions_handling/Not_Int_Result_CustomizedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/queue/QueueChartsFixed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/streams/StreamsDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/streams/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/streams/FirstCapitalLetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/streams/FunctionalInterfacesDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions_handling/ExceptionDemo6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>

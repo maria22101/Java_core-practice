@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strings/StringLetterRemoval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/DecimalToBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/DecimalToBinary.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +55,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringLetterRemoval">
-    <configuration name="Compatibles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.Compatibles" />
+  <component name="RunManager" selected="Application.DecimalToBinary">
+    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.DecimalToBinary" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalInterfacesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.FunctionalInterfacesDemo" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.MergeSort" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.GenericConstructor" />
+    <configuration name="QuickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.QuickSort2" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.GenericQueueDemo" />
+    <configuration name="StringImmutability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StringImmutability" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringLetterRemoval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.StringLetterRemoval" />
+    <configuration name="StringReverseJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StringReverseJoin" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
@@ -122,19 +122,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FunctionalInterfacesDemo" />
-      <item itemvalue="Application.Compatibles" />
-      <item itemvalue="Application.GenericConstructor" />
-      <item itemvalue="Application.GenericQueueDemo" />
-      <item itemvalue="Application.StringLetterRemoval" />
+      <item itemvalue="Application.StringImmutability" />
+      <item itemvalue="Application.StringReverseJoin" />
+      <item itemvalue="Application.DecimalToBinary" />
+      <item itemvalue="Application.QuickSort2" />
+      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringLetterRemoval" />
-        <item itemvalue="Application.GenericQueueDemo" />
-        <item itemvalue="Application.GenericConstructor" />
-        <item itemvalue="Application.Compatibles" />
-        <item itemvalue="Application.FunctionalInterfacesDemo" />
+        <item itemvalue="Application.DecimalToBinary" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.QuickSort2" />
+        <item itemvalue="Application.StringReverseJoin" />
+        <item itemvalue="Application.StringImmutability" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,11 @@
       <option name="presentableId" value="Default" />
       <updated>1564240229338</updated>
       <workItem from="1572191819723" duration="2884000" />
-      <workItem from="1572200182667" duration="935000" />
+      <workItem from="1572200182667" duration="1784000" />
+      <workItem from="1573507972000" duration="8793000" />
+      <workItem from="1573658980243" duration="316000" />
+      <workItem from="1573662807857" duration="1710000" />
+      <workItem from="1573665724296" duration="1313000" />
     </task>
     <servers />
   </component>

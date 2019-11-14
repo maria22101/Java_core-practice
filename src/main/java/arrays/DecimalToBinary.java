@@ -10,26 +10,27 @@ public class DecimalToBinary {
         int num = scan.nextInt();
         double biteElems = 0;
 
-        while (Math.pow(2, biteElems) < num) {
+        while (Math.pow(2, biteElems) <= num) {
             biteElems++;
         }
 
         int[] arr = new int[(int) biteElems];
         int powOftwo = (int) biteElems - 1;
-        int num2 = num;
-        for (int i = 0; i < arr.length; i++) {
-            if (num2 > 1) {
+        int cumulative = 0;
+
+        for (int i = 0; i < arr.length - 1; i++) {
+            if ((cumulative + (int) Math.pow(2, powOftwo)) <= num) {
                 arr[i] = 1;
+                cumulative = cumulative + (int) Math.pow(2, powOftwo);
             }
-            num2 = num2 - (int)Math.pow(2, powOftwo);
             powOftwo--;
         }
 
-        if (num % 2 == 1){
+        if (num % 2 != 0) {
             arr[arr.length - 1] = 1;
         }
 
-        for (int el : arr){
+        for (int el : arr) {
             System.out.print(el);
         }
 

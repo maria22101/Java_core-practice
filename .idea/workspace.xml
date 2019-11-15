@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/AbstractFigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/CompAbstractFigureBySide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/CompAbstractFigureBySquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/FiguresComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/Hexagon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/PriorityQueueAF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/DecimalToBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/DecimalToBinary.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +61,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DecimalToBinary">
+  <component name="RunManager" selected="Application.PriorityQueueAF">
     <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.DecimalToBinary" />
       <module name="Java_core-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FiguresComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparable_and_comparator.FiguresComparison" />
+      <module name="Java_core-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comparable_and_comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,6 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PriorityQueueAF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparable_and_comparator.PriorityQueueAF" />
+      <module name="Java_core-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comparable_and_comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.QuickSort2" />
       <module name="Java_core-practice" />
@@ -95,46 +127,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringImmutability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.StringImmutability" />
-      <module name="Java_core-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringReverseJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.StringReverseJoin" />
-      <module name="Java_core-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.StringImmutability" />
-      <item itemvalue="Application.StringReverseJoin" />
       <item itemvalue="Application.DecimalToBinary" />
       <item itemvalue="Application.QuickSort2" />
       <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.FiguresComparison" />
+      <item itemvalue="Application.PriorityQueueAF" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PriorityQueueAF" />
+        <item itemvalue="Application.FiguresComparison" />
         <item itemvalue="Application.DecimalToBinary" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort2" />
-        <item itemvalue="Application.StringReverseJoin" />
-        <item itemvalue="Application.StringImmutability" />
       </list>
     </recent_temporary>
   </component>

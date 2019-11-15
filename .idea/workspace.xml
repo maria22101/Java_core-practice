@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de3a3ad-3983-417b-ba8b-2bdc1474598b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/AbstractFigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/CompAbstractFigureBySide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/CompAbstractFigureBySquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/FiguresComparison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/Hexagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/PriorityQueueAF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparable_and_comparator/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iterable_and_iterator/Days.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iterable_and_iterator/IterableDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PriorityQueueAF">
+  <component name="RunManager" selected="Application.IterableDemo">
     <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.DecimalToBinary" />
       <module name="Java_core-practice" />
@@ -81,6 +75,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="comparable_and_comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IterableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iterable_and_iterator.IterableDemo" />
+      <module name="Java_core-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iterable_and_iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,33 +121,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.QuickSort2" />
-      <module name="Java_core-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.DecimalToBinary" />
-      <item itemvalue="Application.QuickSort2" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.FiguresComparison" />
       <item itemvalue="Application.PriorityQueueAF" />
+      <item itemvalue="Application.IterableDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IterableDemo" />
         <item itemvalue="Application.PriorityQueueAF" />
         <item itemvalue="Application.FiguresComparison" />
         <item itemvalue="Application.DecimalToBinary" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.QuickSort2" />
       </list>
     </recent_temporary>
   </component>
